@@ -28,7 +28,7 @@ app.post('/sendMessage', async function (req, res) {
     const {name, email, message} = req.body
     let info = await transporter.sendMail({
         from: 'hr message',
-        to: "dariamakarchik@gmail.com",
+        to: "portfoliomailpodobed@gmail.com",
         subject: "Hello ✔",
         html: `<b>Message from ${name}</b>
 <div>${message}</div>
